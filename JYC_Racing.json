@@ -1,7 +1,7 @@
 {
     "name": "JYC Racing",
     "AuxAudioDevice1": {
-        "prev_ver": 536936450,
+        "prev_ver": 536936449,
         "name": "Mic/Aux",
         "uuid": "807d9cd7-fcb9-47d5-b040-691170a39134",
         "id": "coreaudio_input_capture",
@@ -56,13 +56,10 @@
         },
         {
             "name": "Demo Setup"
-        },
-        {
-            "name": "RTSP Buffer"
         }
     ],
-    "current_scene": "RTSP Buffer",
-    "current_program_scene": "RTSP Buffer",
+    "current_scene": "Full Scene",
+    "current_program_scene": "Full Scene",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 300,
@@ -94,7 +91,7 @@
     "preview_locked": false,
     "scaling_enabled": true,
     "scaling_level": -3,
-    "scaling_off_x": -3.0000009536743164,
+    "scaling_off_x": -3.0000011920928955,
     "scaling_off_y": 0.0,
     "virtual-camera": {
         "type2": 3
@@ -127,7 +124,7 @@
     "version": 2,
     "sources": [
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Audio Input Capture",
             "uuid": "7490c7fd-8f96-4b0a-9734-b55d743164ba",
             "id": "coreaudio_input_capture",
@@ -158,7 +155,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Back Buffer",
             "uuid": "ceb54302-1db3-4517-89d9-b81a4745dfad",
             "id": "ffmpeg_source",
@@ -199,7 +196,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Demo Setup",
             "uuid": "5b49bc41-490f-4135-b5e8-8a5fae093ef1",
             "id": "scene",
@@ -516,14 +513,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Demo Video File",
             "uuid": "0515ea94-dc00-4b06-9ba2-68bb833df960",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
                 "hw_decode": true,
-                "local_file": "/Users/scott/jyc/IMG_4975.MOV",
+                "local_file": "/Users/jycadmin/jyc/IMG_4975.MOV",
                 "looping": true,
                 "clear_on_media_end": false
             },
@@ -554,7 +551,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Drone",
             "uuid": "fe0b218e-334f-4cab-8dac-ab2f9c185a6a",
             "id": "scene",
@@ -637,61 +634,6 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 12,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "MacBook Camera",
-                        "source_uuid": "a0cba5fa-2d80-4547-bd90-6e2139d14cf2",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 11,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -812,12 +754,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.399999976158142,
-                            "y": 1.399999976158142
+                            "x": 1.2975000143051147,
+                            "y": 1.2983332872390747
                         },
                         "scale_rel": {
-                            "x": 1.399999976158142,
-                            "y": 1.399999976158142
+                            "x": 1.2975000143051147,
+                            "y": 1.2983332872390747
                         },
                         "bounds": {
                             "x": 0.0,
@@ -967,8 +909,6 @@
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.12": [],
                 "libobs.hide_scene_item.12": [],
-                "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.8": [],
@@ -985,7 +925,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Finish Board",
             "uuid": "470c1603-30fe-4e36-9be8-ac93dbeebf0d",
             "id": "screen_capture",
@@ -1017,20 +957,20 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Front Buffer",
             "uuid": "ba91cb36-5f15-4ac6-bf18-76eaa5d20b73",
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
                 "close_when_inactive": false,
-                "ffmpeg_options": "rtsp_transport=tcp",
                 "hw_decode": true,
-                "input": "rtsp://admin:JYCforme51@192.168.1.171:554/h264Preview_01_sub",
                 "input_format": "rtsp",
+                "input": "rtsp://admin:JYCforme51@192.168.1.171:554/h264Preview_01_sub",
+                "ffmpeg_options": "-rstp_transport=tcp",
                 "is_local_file": false,
                 "restart_on_activate": false,
-                "buffering_mb": 0
+                "buffering_mb": 2
             },
             "mixers": 255,
             "sync": 0,
@@ -1059,7 +999,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Full Scene",
             "uuid": "8ddb78dc-a276-4cc6-bb1e-adffa5daf38f",
             "id": "scene",
@@ -1179,61 +1119,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "MacBook Camera",
-                        "source_uuid": "a0cba5fa-2d80-4547-bd90-6e2139d14cf2",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 10,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "HDMI in",
                         "source_uuid": "25d46680-9922-47fb-b569-617b6f1bce18",
                         "visible": false,
@@ -1317,12 +1202,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.399999976158142,
-                            "y": 1.399999976158142
+                            "x": 1.2975000143051147,
+                            "y": 1.2983332872390747
                         },
                         "scale_rel": {
-                            "x": 1.399999976158142,
-                            "y": 1.399999976158142
+                            "x": 1.2975000143051147,
+                            "y": 1.2983332872390747
                         },
                         "bounds": {
                             "x": 0.0,
@@ -1472,8 +1357,6 @@
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
-                "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
@@ -1490,7 +1373,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "HDMI in",
             "uuid": "25d46680-9922-47fb-b569-617b6f1bce18",
             "id": "macos-avcapture",
@@ -1524,7 +1407,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Intermission",
             "uuid": "67aa6d29-6140-4964-b3da-b454324d3eab",
             "id": "scene",
@@ -1613,7 +1496,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "IntermissionHUD",
             "uuid": "c4f53c5b-b186-4fb5-bd66-f958875bef49",
             "id": "browser_source",
@@ -1648,7 +1531,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Live Race Tracker",
             "uuid": "00fc589e-ebb1-42ed-980c-7645a4c70792",
             "id": "screen_capture",
@@ -1680,7 +1563,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "MacBook Camera",
             "uuid": "a0cba5fa-2d80-4547-bd90-6e2139d14cf2",
             "id": "macos-avcapture",
@@ -1712,7 +1595,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "MastHeadHUD",
             "uuid": "2a4c406a-5aee-4a1b-9b18-6de3abf41619",
             "id": "browser_source",
@@ -1749,14 +1632,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Practice",
             "uuid": "7a1d515b-2111-47d6-85ed-b8cda842fcf6",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 12,
                 "custom_size": false,
+                "id_counter": 12,
                 "items": [
                     {
                         "name": "Audio Input Capture",
@@ -2007,12 +1890,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 2.142857074737549,
+                            "y": 2.142578125
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 2.142857074737549,
+                            "y": 2.142578125
                         },
                         "bounds": {
                             "x": 0.0,
@@ -2227,12 +2110,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 0.9399999976158142,
-                            "y": 0.9399999976158142
+                            "x": 0.7850000262260437,
+                            "y": 0.7850000262260437
                         },
                         "scale_rel": {
-                            "x": 0.9399999976158142,
-                            "y": 0.9399999976158142
+                            "x": 0.7850000262260437,
+                            "y": 0.7850000262260437
                         },
                         "bounds": {
                             "x": 0.0,
@@ -2276,6 +2159,8 @@
                 "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
+                "libobs.show_scene_item.12": [],
+                "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.6": [],
                 "libobs.hide_scene_item.6": [],
                 "libobs.show_scene_item.7": [],
@@ -2283,9 +2168,7 @@
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.9": [],
-                "libobs.hide_scene_item.9": [],
-                "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": []
+                "libobs.hide_scene_item.9": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2294,7 +2177,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "PracticeHUD",
             "uuid": "b90a2b12-fc0d-41a2-b339-1148cc02baf0",
             "id": "browser_source",
@@ -2330,7 +2213,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Race Display",
             "uuid": "539696d4-5a11-4b8c-bb99-e08d70ea1eef",
             "id": "screen_capture",
@@ -2362,7 +2245,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "RaceHUD",
             "uuid": "832f7440-e50d-4afa-9d9a-308f8a40b006",
             "id": "browser_source",
@@ -2397,7 +2280,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "RC Finish",
             "uuid": "9017406b-477e-4369-9787-8d1d1216e951",
             "id": "scene",
@@ -2464,7 +2347,7 @@
                     {
                         "name": "Demo Video File",
                         "source_uuid": "0515ea94-dc00-4b06-9ba2-68bb833df960",
-                        "visible": false,
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -2480,61 +2363,6 @@
                         "crop_right": 0,
                         "crop_bottom": 0,
                         "id": 11,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "MacBook Camera",
-                        "source_uuid": "a0cba5fa-2d80-4547-bd90-6e2139d14cf2",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 12,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -2600,12 +2428,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 2.1484375,
+                            "y": 2.1484375
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 2.1484375,
+                            "y": 2.1484375
                         },
                         "bounds": {
                             "x": 0.0,
@@ -2655,12 +2483,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.399999976158142,
-                            "y": 1.399999976158142
+                            "x": 1.2975000143051147,
+                            "y": 1.2983332872390747
                         },
                         "scale_rel": {
-                            "x": 1.399999976158142,
-                            "y": 1.399999976158142
+                            "x": 1.2975000143051147,
+                            "y": 1.2983332872390747
                         },
                         "bounds": {
                             "x": 0.0,
@@ -2810,16 +2638,14 @@
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
-                "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": [],
+                "libobs.show_scene_item.13": [],
+                "libobs.hide_scene_item.13": [],
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.9": [],
                 "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.10": [],
-                "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.13": [],
-                "libobs.hide_scene_item.13": []
+                "libobs.hide_scene_item.10": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -2828,14 +2654,14 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "RC Race",
             "uuid": "4532a044-778d-4dc4-9944-f4dc8603469b",
             "id": "scene",
             "versioned_id": "scene",
             "settings": {
-                "id_counter": 9,
                 "custom_size": false,
+                "id_counter": 9,
                 "items": [
                     {
                         "name": "Audio Input Capture",
@@ -2948,61 +2774,6 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "MacBook Camera",
-                        "source_uuid": "a0cba5fa-2d80-4547-bd90-6e2139d14cf2",
-                        "visible": false,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 9,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
-                    },
-                    {
                         "name": "RaceHUD",
                         "source_uuid": "832f7440-e50d-4afa-9d9a-308f8a40b006",
                         "visible": true,
@@ -3031,12 +2802,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.399999976158142,
-                            "y": 1.399999976158142
+                            "x": 1.2975000143051147,
+                            "y": 1.2983332872390747
                         },
                         "scale_rel": {
-                            "x": 1.399999976158142,
-                            "y": 1.399999976158142
+                            "x": 1.2975000143051147,
+                            "y": 1.2983332872390747
                         },
                         "bounds": {
                             "x": 0.0,
@@ -3186,8 +2957,6 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.8": [],
                 "libobs.hide_scene_item.8": [],
-                "libobs.show_scene_item.9": [],
-                "libobs.hide_scene_item.9": [],
                 "libobs.show_scene_item.3": [],
                 "libobs.hide_scene_item.3": [],
                 "libobs.show_scene_item.4": [],
@@ -3202,7 +2971,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "RC Start",
             "uuid": "991737c9-107c-4155-8878-340cc754a6f0",
             "id": "scene",
@@ -3322,9 +3091,9 @@
                         "private_settings": {}
                     },
                     {
-                        "name": "MacBook Camera",
-                        "source_uuid": "a0cba5fa-2d80-4547-bd90-6e2139d14cf2",
-                        "visible": false,
+                        "name": "Back Buffer",
+                        "source_uuid": "ceb54302-1db3-4517-89d9-b81a4745dfad",
+                        "visible": true,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -3339,7 +3108,7 @@
                         "crop_top": 0,
                         "crop_right": 0,
                         "crop_bottom": 0,
-                        "id": 11,
+                        "id": 12,
                         "group_item_backup": false,
                         "pos": {
                             "x": 0.0,
@@ -3350,12 +3119,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 2.142857074737549,
+                            "y": 2.142578125
                         },
                         "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
+                            "x": 2.142857074737549,
+                            "y": 2.142578125
                         },
                         "bounds": {
                             "x": 0.0,
@@ -3405,12 +3174,12 @@
                             "y": -1.0
                         },
                         "scale": {
-                            "x": 1.399999976158142,
-                            "y": 1.399999976158142
+                            "x": 1.2975000143051147,
+                            "y": 1.2983332872390747
                         },
                         "scale_rel": {
-                            "x": 1.399999976158142,
-                            "y": 1.399999976158142
+                            "x": 1.2975000143051147,
+                            "y": 1.2983332872390747
                         },
                         "bounds": {
                             "x": 0.0,
@@ -3540,61 +3309,6 @@
                             "duration": 0
                         },
                         "private_settings": {}
-                    },
-                    {
-                        "name": "Back Buffer",
-                        "source_uuid": "ceb54302-1db3-4517-89d9-b81a4745dfad",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 12,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
                     }
                 ]
             },
@@ -3615,16 +3329,14 @@
                 "libobs.hide_scene_item.1": [],
                 "libobs.show_scene_item.10": [],
                 "libobs.hide_scene_item.10": [],
-                "libobs.show_scene_item.11": [],
-                "libobs.hide_scene_item.11": [],
+                "libobs.show_scene_item.12": [],
+                "libobs.hide_scene_item.12": [],
                 "libobs.show_scene_item.4": [],
                 "libobs.hide_scene_item.4": [],
                 "libobs.show_scene_item.5": [],
                 "libobs.hide_scene_item.5": [],
                 "libobs.show_scene_item.6": [],
-                "libobs.hide_scene_item.6": [],
-                "libobs.show_scene_item.12": [],
-                "libobs.hide_scene_item.12": []
+                "libobs.hide_scene_item.6": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -3633,210 +3345,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
-            "name": "RTSP Buffer",
-            "uuid": "bd346ced-0921-4e7a-a5f0-bb6b832f27be",
-            "id": "scene",
-            "versioned_id": "scene",
-            "settings": {
-                "custom_size": false,
-                "id_counter": 9,
-                "items": [
-                    {
-                        "name": "Front Buffer",
-                        "source_uuid": "ba91cb36-5f15-4ac6-bf18-76eaa5d20b73",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 3,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Back Buffer",
-                        "source_uuid": "ceb54302-1db3-4517-89d9-b81a4745dfad",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 8,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 0
-                        },
-                        "hide_transition": {
-                            "duration": 0
-                        },
-                        "private_settings": {}
-                    },
-                    {
-                        "name": "Top Buffer",
-                        "source_uuid": "ef525992-afe4-4a71-a2aa-d0d8ff7a0563",
-                        "visible": true,
-                        "locked": false,
-                        "rot": 0.0,
-                        "scale_ref": {
-                            "x": 1920.0,
-                            "y": 1080.0
-                        },
-                        "align": 5,
-                        "bounds_type": 0,
-                        "bounds_align": 0,
-                        "bounds_crop": false,
-                        "crop_left": 0,
-                        "crop_top": 0,
-                        "crop_right": 0,
-                        "crop_bottom": 0,
-                        "id": 9,
-                        "group_item_backup": false,
-                        "pos": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "pos_rel": {
-                            "x": -1.7777777910232544,
-                            "y": -1.0
-                        },
-                        "scale": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "scale_rel": {
-                            "x": 1.0,
-                            "y": 1.0
-                        },
-                        "bounds": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "bounds_rel": {
-                            "x": 0.0,
-                            "y": 0.0
-                        },
-                        "scale_filter": "disable",
-                        "blend_method": "default",
-                        "blend_type": "normal",
-                        "show_transition": {
-                            "duration": 300
-                        },
-                        "hide_transition": {
-                            "duration": 300
-                        },
-                        "private_settings": {}
-                    }
-                ]
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "OBSBasic.SelectScene": [],
-                "libobs.show_scene_item.3": [],
-                "libobs.hide_scene_item.3": [],
-                "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": [],
-                "libobs.show_scene_item.9": [],
-                "libobs.hide_scene_item.9": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "Start Board",
             "uuid": "6dae6598-d619-4c86-bdae-e56d7803bc15",
             "id": "screen_capture",
@@ -3868,53 +3377,13 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536936450,
-            "name": "Top Buffer",
-            "uuid": "ef525992-afe4-4a71-a2aa-d0d8ff7a0563",
-            "id": "ffmpeg_source",
-            "versioned_id": "ffmpeg_source",
-            "settings": {
-                "input": "rtsp://admin:JYCforme51@192.168.1.171:554/h264Preview_03_sub",
-                "input_format": "rtsp",
-                "hw_decode": true,
-                "ffmpeg_options": "rtsp_transport=tcp",
-                "is_local_file": false,
-                "buffering_mb": 0
-            },
-            "mixers": 255,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {
-                "libobs.mute": [],
-                "libobs.unmute": [],
-                "libobs.push-to-mute": [],
-                "libobs.push-to-talk": [],
-                "MediaSource.Restart": [],
-                "MediaSource.Play": [],
-                "MediaSource.Pause": [],
-                "MediaSource.Stop": []
-            },
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536936450,
+            "prev_ver": 536936449,
             "name": "WeatherHUD",
             "uuid": "778cf1bd-d85f-44ac-97f5-b833572e7aa5",
             "id": "browser_source",
             "versioned_id": "browser_source",
             "settings": {
-                "url": "https://nalsa.org/weatherhud",
+                "url": "https://nalsa.org/weatherhud?station=JYC%20RC",
                 "width": 350,
                 "height": 150,
                 "fps_custom": true,
